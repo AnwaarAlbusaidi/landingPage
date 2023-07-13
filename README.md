@@ -3,11 +3,11 @@
 ## Table of Contents
 * Instructions
 * Project Description
-Implementation
-## Dependencies
-## Usage
-## Contributing
-## License
+* Implementation
+* Dependencies
+* Usage
+* Contributing
+* License
 
 
 
