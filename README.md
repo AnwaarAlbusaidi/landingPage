@@ -8,7 +8,6 @@
 - [Dependencies](#dependencies)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Instructions
 The starter project provides an HTML file and a CSS file that display a static version of the Landing Page project. Your task is to convert this project from a static page to an interactive one by modifying the JavaScript file.
@@ -36,6 +35,3 @@ To use the Landing Page Project, follow these steps:
 
 ## Contributing
 This project is part of a personal landing page project. Pull requests will not be accepted. You can use this project as a reference or starting point for your own projects.
-
-## License
-The content of this repository is licensed under the MIT License.
