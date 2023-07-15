@@ -14,25 +14,22 @@ function buildNav() {
   navList.innerHTML = navItems.join('');
 }
 
-// Add class 'active' to section when near top of viewport
+// Add class 'active' to section and navigation element when in viewport
 function setActiveSection() {
-  const scrollPosition = window.scrollY;
+  const viewportHeight = window.innerHeight;
 
   sections.forEach(section => {
-    const sectionOffset = section.offsetTop;
-    const sectionHeight = section.offsetHeight;
-    const sectionId = section.id;
-    const navItem = document.querySelector(`a[href="#${sectionId}"]`);
+    const rect = section.getBoundingClientRect();
+    const sectionTop = rect.top;
 
-    if (scrollPosition >= sectionOffset - sectionHeight * 0.5 && scrollPosition < sectionOffset + sectionHeight * 0.5) {
+    if (sectionTop >= 0 && sectionTop <= viewportHeight) {
       section.classList.add('your-active-class');
-      navItem.classList.add('active');
     } else {
       section.classList.remove('your-active-class');
-      navItem.classList.remove('active');
     }
   });
 }
+
 
 // Scroll to anchor ID using scrollTO event
 function scrollToSection(event) {

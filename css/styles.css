@@ -248,4 +248,17 @@ section.your-active-class .landing__container::after {
     color: #ffcc00;
   }
   
+
+  /* CSS styles for the active section */
+.your-active-class {
+    background-color: #ffcc00;
+  }
+  
+  /* CSS styles for the active navigation element */
+  #navbar__list li a.active {
+    color: #ffcc00;
+  }
+
+  
+  
   
