@@ -221,6 +221,30 @@ section.your-active-class .landing__container::after {
 		           rotate(-360deg);
 	}
 }
+/* Define CSS for the Navigation Menu */
+#navbar__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #f0f0f0; /* Background color for the navigation menu */
+    padding: 10px 0;
+  }
+  
+  #navbar__list li {
+    margin: 0 10px;
+  }
+  
+  #navbar__list a {
+    text-decoration: none;
+    color: #333; /* Link color for the navigation items */
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth transition for the background color */
+  }
+  
+
+  
+/* CSS styles for the navigation bar */
 /* CSS styles for the navigation bar */
 .navbar__menu {
     background-color: #f8f5f5;
@@ -248,17 +272,15 @@ section.your-active-class .landing__container::after {
     color: #ffcc00;
   }
   
-
   /* CSS styles for the active section */
-.your-active-class {
-    background-color: #ffcc00;
+  .your-active-class {
+    background-color: #2600ff;
+    /* Add other styles to visually highlight the active section */
   }
   
   /* CSS styles for the active navigation element */
   #navbar__list li a.active {
-    color: #ffcc00;
+    color: #0046dc;
+    /* Add other styles to visually highlight the active navigation element */
   }
-
-  
-  
   
